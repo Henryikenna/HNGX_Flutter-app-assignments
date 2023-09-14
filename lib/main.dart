@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hngx_project1/views/project1/homepage_view.dart';
+import 'package:hngx_project1/views/project2/profile_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       //   useMaterial3: true,
       // ),
-      home: HomePage(),
+      home: ProfileView(),
       debugShowCheckedModeBanner: false,
     );
   }
