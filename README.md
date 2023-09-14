@@ -1,7 +1,7 @@
 # Flutter Profile Editor App
 
-![Flutter](https://img.shields.io/badge/Flutter-2.2.3-blue)
-![Dart](https://img.shields.io/badge/Dart-2.13.4-green)
+![Flutter](https://img.shields.io/badge/Flutter-3.13.0-blue)
+![Dart](https://img.shields.io/badge/Dart-3.12.0-green)
 
 A simple Flutter application for editing and displaying user profiles.
 
@@ -13,8 +13,6 @@ A simple Flutter application for editing and displaying user profiles.
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -57,4 +55,17 @@ Follow these steps to set up and run the Flutter Profile Editor App on your loca
    ```bash
    flutter run
 
+## Usage
+
+1. Launch the Flutter Profile Editor App on your device/emulator.
+
+2. You will be presented with the "Profile View" screen, displaying your current profile information.
+
+3. To edit your profile, click the "Edit Profile" button.
+
+4. You will be taken to the "Edit Profile" screen, where you can update your full name, Slack username, GitHub handle, and bio text.
+
+5. Ensure all fields are filled out before pressing the "SAVE" button; otherwise, an alert will prompt you to complete all fields.
+
+6. Your changes will be saved, and you will be returned to the "Profile View" screen, where your updated profile information will be displayed.
 
